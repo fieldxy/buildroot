@@ -354,6 +354,7 @@ tests.boot.test_syslinux.TestSysLinuxX86EFI: { extends: .runtime_test }
 tests.boot.test_syslinux.TestSysLinuxX86LegacyBios: { extends: .runtime_test }
 tests.boot.test_syslinux.TestSysLinuxX86_64EFI: { extends: .runtime_test }
 tests.boot.test_syslinux.TestSysLinuxX86_64LegacyBios: { extends: .runtime_test }
+tests.core.test_bad_arch.DetectBadArchTest: { extends: .runtime_test }
 tests.core.test_file_capabilities.TestFileCapabilities: { extends: .runtime_test }
 tests.core.test_hardening.TestFortifyConserv: { extends: .runtime_test }
 tests.core.test_hardening.TestFortifyNone: { extends: .runtime_test }
