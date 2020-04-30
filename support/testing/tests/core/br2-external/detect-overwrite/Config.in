@@ -1,0 +1,1 @@
+source "$BR2_EXTERNAL_DETECT_OVERWRITE_PATH/package/detect-overwrite/Config.in"

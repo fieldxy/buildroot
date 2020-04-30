@@ -1,0 +1,5 @@
+config BR2_PACKAGE_DETECT_OVERWRITE
+	bool "detect-overwrite"
+
+config BR2_PACKAGE_HOST_DETECT_OVERWRITE
+	bool "host-detect-overwrite"
